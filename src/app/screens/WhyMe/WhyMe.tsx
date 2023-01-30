@@ -39,7 +39,6 @@ const WhyMe: FC = () => {
 					src={profileData.src}
 					alt={profileData.alt}
 					draggable={'false'}
-					priority
 				/>
 			</div>
 

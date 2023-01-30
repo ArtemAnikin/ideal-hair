@@ -31,7 +31,6 @@ const Home: FC = () => {
 						src={logo}
 						alt={'logo'}
 						draggable={false}
-						priority
 					/>
 					<div className={styles.title}>{logoTitle}</div>
 				</div>
@@ -42,7 +41,6 @@ const Home: FC = () => {
 						src={profileImg}
 						alt={'profile'}
 						draggable={false}
-						priority
 					/>
 				</div>
 			</div>

@@ -24,7 +24,6 @@ const BeforeAfter: FC = () => {
 							src={poster.src}
 							alt={poster.alt}
 							draggable={'false'}
-							priority
 						/>
 					</div>
 				))}

@@ -27,7 +27,6 @@ const Certificates: FC = () => {
 						src={cerf.scr}
 						alt={cerf.alt}
 						draggable={'false'}
-						priority
 					/>
 				))}
 			</div>

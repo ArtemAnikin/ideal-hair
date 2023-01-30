@@ -1,0 +1,48 @@
+.home {
+
+  .top {
+    margin: 22px 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      margin-top: 20px;
+      font-family: 'Caveat', cursive;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 15px;
+      text-align: center;
+      color: #000000;
+
+    }
+
+    .profileImage {
+      margin-top: 20px;
+    }
+  }
+
+  .description {
+    margin: 40px 25px 40px;
+    white-space: break-spaces;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  .menu {
+    margin: 40px 50px 30px;
+
+    >button {
+      margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+  }
+}

@@ -24,7 +24,7 @@ const Procedures: FC = () => {
 	}
 
 	return (
-		<div>
+		<div className={styles.proceduresWrapper}>
 			<Header title={headerTitle} showBackButton />
 
 			<div className={styles.procedures}>

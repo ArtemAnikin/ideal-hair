@@ -1,6 +1,20 @@
 @import "src/app/styles/colors.scss";
 
+$bg1_whyMe: "../../assets/procedures/bg1.svg";
+$bg2_whyMe: "../../assets/procedures/bg2.svg";
+
+.proceduresWrapper {
+  padding-top: 20px;
+  background-color: $blue;
+  background-image: url($bg1_whyMe), url($bg2_whyMe);
+  background-repeat: no-repeat;
+  background-position: left -50px, right bottom;
+  overflow: hidden;
+}
+
+
 .procedures {
+  min-height: 80vh;
   margin: 40px 50px 0;
 
   .procedure {

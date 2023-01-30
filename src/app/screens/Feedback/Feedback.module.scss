@@ -1,3 +1,18 @@
+@import "src/app/styles/colors.scss";
+
+$bg1_whyMe: "../../assets/feedback/bg1.svg";
+$bg2_whyMe: "../../assets/feedback/bg2.svg";
+$bg3_whyMe: "../../assets/feedback/bg3.svg";
+
+.feedbackWrapper {
+  padding-top: 20px;
+  background-color: $white;
+  background-image: url($bg1_whyMe), url($bg2_whyMe), url($bg3_whyMe);
+  background-repeat: no-repeat;
+  background-position: left -50px, center 415px, right bottom;
+  overflow: hidden;
+}
+
 .feedbacks {
   margin: 40px 25px 30px;
 

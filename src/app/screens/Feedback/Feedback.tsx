@@ -10,7 +10,7 @@ import styles from './Feedback.module.scss'
 
 const Feedback: FC = () => {
 	return (
-		<div>
+		<div className={styles.feedbackWrapper}>
 			<Header title={headerTitle} showBackButton />
 			<div className={styles.feedbacks}>
 				{FeedbackData.map(item => (

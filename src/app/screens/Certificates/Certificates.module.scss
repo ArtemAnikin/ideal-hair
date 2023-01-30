@@ -4,10 +4,11 @@ $bg1_certificates: '../../assets/certificates/bg1.svg';
 $bg2_certificates: '../../assets/certificates/bg2.svg';
 
 .certificatesWrapper {
+  padding-top: 20px;
   background-color: $white;
   background-image: url($bg1_certificates), url($bg2_certificates);
   background-repeat: no-repeat;
-  background-position: left -65px, center 140px;
+  background-position: left -25px, center 225px;
 }
 
 .certificates {
@@ -15,21 +16,34 @@ $bg2_certificates: '../../assets/certificates/bg2.svg';
   display: inline-block;
 
   .top, .bottom {
-    display: flex;
     width: 100%;
-    justify-content: space-between;
 
-    >div {
+    div {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: space-between;
+    }
+  }
 
-      img {
-        position: absolute;
-      }
+  .top {
+    div {
+      margin-bottom: 20px;
     }
   }
   .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 
+    >div {
+      width: 100%;
+      margin-bottom: 20px;
+
+      > img {
+        object-fit: cover;
+        position: relative !important;
+      }
+    }
   }
 }

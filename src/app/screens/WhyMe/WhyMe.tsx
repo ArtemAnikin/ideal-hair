@@ -27,7 +27,6 @@ const WhyMe: FC = () => {
 					src={backButton.src}
 					alt={backButton.alt}
 					draggable
-					unoptimized
 				/>
 			</div>
 
@@ -39,6 +38,8 @@ const WhyMe: FC = () => {
 					src={profileData.src}
 					alt={profileData.alt}
 					draggable={'false'}
+					unoptimized
+					priority
 				/>
 			</div>
 

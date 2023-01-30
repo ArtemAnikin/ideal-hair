@@ -32,19 +32,19 @@ export const CertificatesTopData: Certificate[] = [
 
 export const CertificatesCenterData: Certificate[] = [
 	{
-		scr: cerf5,
+		scr: cerf3,
 		width: 340,
 		height: 226,
 		alt: 'cerf5'
 	},
 	{
-		scr: cerf6,
+		scr: cerf4,
 		width: 340,
 		height: 226,
 		alt: 'cerf6'
 	},
 	{
-		scr: cerf4,
+		scr: cerf5,
 		width: 340,
 		height: 226,
 		alt: 'cerf4'
@@ -53,7 +53,7 @@ export const CertificatesCenterData: Certificate[] = [
 
 export const CertificatesBottomData: Certificate[] = [
 	{
-		scr: cerf3,
+		scr: cerf6,
 		width: 160,
 		height: 200,
 		alt: 'cerf3'

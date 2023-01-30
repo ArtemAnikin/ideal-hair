@@ -22,6 +22,8 @@ const Feedback: FC = () => {
 							src={item.src}
 							alt={item.alt}
 							draggable={'false'}
+							unoptimized
+							priority
 						/>
 					</div>
 				))}

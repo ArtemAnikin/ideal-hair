@@ -2,14 +2,13 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { FC } from 'react'
 
-import profileImg from '@/assets/home/profile.svg'
-import logo from '@/assets/logo.svg'
-
 import {
 	MenuData,
 	descriptionData,
 	dividerData,
-	logoTitle
+	logoData,
+	logoTitle,
+	profileImage
 } from '@/screens/Home/home.data'
 
 import Button from '@/ui/Button/Button'
@@ -26,21 +25,25 @@ const Home: FC = () => {
 			<div className={styles.top}>
 				<div className={styles.logo}>
 					<Image
-						width={154}
-						height={98}
-						src={logo}
-						alt={'logo'}
+						width={logoData.width}
+						height={logoData.height}
+						src={logoData.src}
+						alt={logoData.alt}
 						draggable={false}
+						unoptimized
+						priority
 					/>
 					<div className={styles.title}>{logoTitle}</div>
 				</div>
 				<div className={styles.profileImage}>
 					<Image
-						width={140}
-						height={140}
-						src={profileImg}
-						alt={'profile'}
+						width={profileImage.width}
+						height={profileImage.height}
+						src={profileImage.src}
+						alt={profileImage.alt}
 						draggable={false}
+						unoptimized
+						priority
 					/>
 				</div>
 			</div>

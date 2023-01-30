@@ -1,3 +1,6 @@
+import profileImg from '@/assets/home/profile.svg'
+import logo from '@/assets/logo.svg'
+
 import {
 	getBeforeAfterUrl,
 	getCertificatesUrl,
@@ -20,6 +23,20 @@ export const descriptionData =
 	'Моя мета – зробити твоє волосся\n' +
 	'естетично красивим, здоровим і навчити\n' +
 	'тебе доглядати за ним у домашніх умовах.\n'
+
+export const logoData = {
+	src: logo,
+	alt: 'logo',
+	width: 154,
+	height: 98
+}
+
+export const profileImage = {
+	src: profileImg,
+	alt: 'profile',
+	width: 140,
+	height: 140
+}
 
 export const dividerData = 'Дозволь собі ідеальне волосся'
 

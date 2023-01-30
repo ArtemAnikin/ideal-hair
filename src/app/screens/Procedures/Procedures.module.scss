@@ -1,0 +1,31 @@
+@import "src/app/styles/colors.scss";
+
+.procedures {
+  margin: 40px 50px 0;
+
+  .procedure {
+    margin-bottom: 16px;
+
+    .description {
+      display: none;
+      white-space: break-spaces;
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.active {
+  >button {
+    background-color: $beige;
+  }
+  .description {
+    display: block !important;
+
+    font-style: italic;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 20px;
+    color: #000000;
+  }
+}

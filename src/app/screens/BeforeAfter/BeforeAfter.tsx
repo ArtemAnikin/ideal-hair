@@ -13,7 +13,7 @@ import styles from './BeforeAfter.module.scss'
 
 const BeforeAfter: FC = () => {
 	return (
-		<div>
+		<div className={styles.beforeAfterWrapper}>
 			<Header title={headerTitle} showBackButton />
 			<div className={styles.posters}>
 				{BeforeAfterData.map(poster => (

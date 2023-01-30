@@ -1,6 +1,6 @@
-import bg1 from '@/assets/beforeAfter/bg1.svg'
-import bg2 from '@/assets/beforeAfter/bg2.svg'
-import bg3 from '@/assets/beforeAfter/bg3.svg'
+import bg1 from '@/assets/beforeAfter/post1.svg'
+import bg2 from '@/assets/beforeAfter/post2.svg'
+import bg3 from '@/assets/beforeAfter/post3.svg'
 
 interface Poster {
 	src: string

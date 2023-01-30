@@ -1,3 +1,18 @@
+@import "src/app/styles/colors.scss";
+
+$bg1_whyMe: "../../assets/beforeAfter/bg1.svg";
+$bg2_whyMe: "../../assets/beforeAfter/bg2.svg";
+
+.beforeAfterWrapper {
+  padding-top: 20px;
+  background-color: $white;
+  background-image: url($bg1_whyMe), url($bg2_whyMe);
+  background-repeat: no-repeat;
+  background-position: left -50px, right 400px;
+  overflow: hidden;
+}
+
+
 .posters {
   margin: 37px 25px 30px;
 

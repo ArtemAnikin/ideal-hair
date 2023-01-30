@@ -7,6 +7,7 @@ import {
 } from '@/screens/Procedures/procedures.data'
 
 import Button from '@/ui/Button/Button'
+import Footer from '@/ui/Footer/Footer'
 import Header from '@/ui/Header/Header'
 
 import styles from './Procedures.module.scss'
@@ -45,6 +46,8 @@ const Procedures: FC = () => {
 					)
 				})}
 			</div>
+
+			<Footer />
 		</div>
 	)
 }

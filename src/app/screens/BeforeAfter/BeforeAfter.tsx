@@ -6,6 +6,7 @@ import {
 	headerTitle
 } from '@/screens/BeforeAfter/beforeAfter.data'
 
+import Footer from '@/ui/Footer/Footer'
 import Header from '@/ui/Header/Header'
 
 import styles from './BeforeAfter.module.scss'
@@ -28,6 +29,8 @@ const BeforeAfter: FC = () => {
 					</div>
 				))}
 			</div>
+
+			<Footer />
 		</div>
 	)
 }

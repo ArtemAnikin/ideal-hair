@@ -11,6 +11,8 @@ import {
 	title
 } from '@/screens/WhyMe/whyMe.data'
 
+import Footer from '@/ui/Footer/Footer'
+
 import styles from './WhyMe.module.scss'
 
 const WhyMe: FC = () => {
@@ -48,6 +50,8 @@ const WhyMe: FC = () => {
 					))}
 				</ul>
 			</div>
+
+			<Footer />
 		</div>
 	)
 }

@@ -6,6 +6,7 @@ import {
 	headerTitle
 } from '@/screens/Certificates/certificates.data'
 
+import Footer from '@/ui/Footer/Footer'
 import Header from '@/ui/Header/Header'
 
 import styles from './Certificates.module.scss'
@@ -22,7 +23,7 @@ const Certificates: FC = () => {
 					<Image
 						width={cerf.width}
 						height={cerf.height}
-						key={cerf.scr}
+						key={cerf.alt}
 						src={cerf.scr}
 						alt={cerf.alt}
 						draggable={'false'}
@@ -30,6 +31,8 @@ const Certificates: FC = () => {
 					/>
 				))}
 			</div>
+
+			<Footer />
 		</>
 	)
 }

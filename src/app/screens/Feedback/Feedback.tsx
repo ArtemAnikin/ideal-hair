@@ -3,6 +3,7 @@ import { FC } from 'react'
 
 import { FeedbackData, headerTitle } from '@/screens/Feedback/feedback.data'
 
+import Footer from '@/ui/Footer/Footer'
 import Header from '@/ui/Header/Header'
 
 import styles from './Feedback.module.scss'
@@ -26,6 +27,8 @@ const Feedback: FC = () => {
 					</div>
 				))}
 			</div>
+
+			<Footer />
 		</div>
 	)
 }

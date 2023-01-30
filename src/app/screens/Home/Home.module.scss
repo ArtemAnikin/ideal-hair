@@ -1,7 +1,11 @@
+@import "src/app/styles/colors.scss";
+
 .home {
+  background-color: $beige;
 
   .top {
-    margin: 22px 25px;
+    padding-top: 22px;
+    margin: 0 25px;
     display: flex;
     justify-content: space-between;
 

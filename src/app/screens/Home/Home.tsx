@@ -14,6 +14,7 @@ import {
 
 import Button from '@/ui/Button/Button'
 import Divider from '@/ui/Divider/Divider'
+import Footer from '@/ui/Footer/Footer'
 
 import styles from './Home.module.scss'
 
@@ -61,6 +62,8 @@ const Home: FC = () => {
 					/>
 				))}
 			</div>
+
+			<Footer />
 		</div>
 	)
 }

@@ -19,7 +19,7 @@ const WhyMe: FC = () => {
 	const { push } = useRouter()
 
 	return (
-		<div>
+		<div className={styles.whyMeWrapper}>
 			<div className={styles.back} onClick={() => push(getHomeUrl)}>
 				<Image
 					width={backButton.width}

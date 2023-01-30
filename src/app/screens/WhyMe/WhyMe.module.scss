@@ -1,0 +1,42 @@
+@import 'src/app/styles/colors.scss';
+
+.back {
+  position: absolute;
+  top: 28px;
+  left: 35px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 25px 40px 45px;
+
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $white;
+  }
+}
+
+.description {
+  margin: 0 25px 30px;
+  padding-left: 25px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+  color: #000000;
+
+  list-style-position: outside;
+  white-space: break-spaces;
+
+  >ul {
+    padding: 0;
+  }
+}

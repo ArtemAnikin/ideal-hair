@@ -14,4 +14,22 @@ $bg2_certificates: '../../assets/certificates/bg2.svg';
   margin: 40px 25px 30px;
   display: inline-block;
 
+  .top, .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    >div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        position: absolute;
+      }
+    }
+  }
+  .center {
+
+  }
 }

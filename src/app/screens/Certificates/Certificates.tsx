@@ -2,7 +2,9 @@ import Image from 'next/image'
 import { FC } from 'react'
 
 import {
-	CertificatesData,
+	CertificatesBottomData,
+	CertificatesCenterData,
+	CertificatesTopData,
 	headerTitle
 } from '@/screens/Certificates/certificates.data'
 
@@ -19,16 +21,36 @@ const Certificates: FC = () => {
 			</div>
 
 			<div className={styles.certificates}>
-				{CertificatesData.map(cerf => (
-					<Image
-						width={cerf.width}
-						height={cerf.height}
-						key={cerf.alt}
-						src={cerf.scr}
-						alt={cerf.alt}
-						draggable={'false'}
-					/>
-				))}
+				<div className={styles.top}>
+					{CertificatesTopData.map(cerf => (
+						<div
+							key={cerf.alt}
+							style={{ width: cerf.width, height: cerf.height }}
+						>
+							<Image src={cerf.scr} alt={cerf.alt} draggable={'false'} />
+						</div>
+					))}
+				</div>
+				<div className={styles.center}>
+					{CertificatesCenterData.map(cerf => (
+						<div
+							key={cerf.alt}
+							style={{ width: cerf.width, height: cerf.height }}
+						>
+							<Image src={cerf.scr} alt={cerf.alt} draggable={'false'} />
+						</div>
+					))}
+				</div>
+				<div className={styles.bottom}>
+					{CertificatesBottomData.map(cerf => (
+						<div
+							key={cerf.alt}
+							style={{ width: cerf.width, height: cerf.height }}
+						>
+							<Image src={cerf.scr} alt={cerf.alt} draggable={'false'} />
+						</div>
+					))}
+				</div>
 			</div>
 
 			<Footer />

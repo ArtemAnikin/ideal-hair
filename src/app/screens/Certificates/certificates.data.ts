@@ -15,7 +15,7 @@ interface Certificate {
 
 export const headerTitle = 'СЕРТИФІКАТИ'
 
-export const CertificatesData: Certificate[] = [
+export const CertificatesTopData: Certificate[] = [
 	{
 		scr: cerf1,
 		width: 160,
@@ -27,7 +27,10 @@ export const CertificatesData: Certificate[] = [
 		width: 160,
 		height: 200,
 		alt: 'cerf2'
-	},
+	}
+]
+
+export const CertificatesCenterData: Certificate[] = [
 	{
 		scr: cerf5,
 		width: 340,
@@ -45,7 +48,10 @@ export const CertificatesData: Certificate[] = [
 		width: 340,
 		height: 226,
 		alt: 'cerf4'
-	},
+	}
+]
+
+export const CertificatesBottomData: Certificate[] = [
 	{
 		scr: cerf3,
 		width: 160,

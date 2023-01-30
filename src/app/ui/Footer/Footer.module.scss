@@ -1,7 +1,13 @@
-.footer{
+.footer {
   padding: 0 75px 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  >a {
+    margin-right: 25px;
 
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }

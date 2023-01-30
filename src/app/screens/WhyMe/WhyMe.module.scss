@@ -5,16 +5,17 @@ $bg2_whyMe: "../../assets/whyMe/bg2.svg";
 $bg3_whyMe: "../../assets/whyMe/bg3.svg";
 
 .whyMeWrapper {
+  padding-top: 20px;
   background-color: $white;
   background-image: url($bg1_whyMe), url($bg3_whyMe), url($bg2_whyMe);
   background-repeat: no-repeat;
-  background-position: left -50px, center 190px, right bottom;
+  background-position: left -50px, center 210px, right bottom;
   overflow: hidden;
 }
 
 .back {
   position: absolute;
-  top: 28px;
+  top: 40px;
   left: 35px;
 }
 
@@ -22,7 +23,7 @@ $bg3_whyMe: "../../assets/whyMe/bg3.svg";
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 25px;
+  padding-top: 20px;
   margin: 0 25px 40px 45px;
 
   .title {

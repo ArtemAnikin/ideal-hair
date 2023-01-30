@@ -24,8 +24,8 @@ export const profileData = {
 }
 
 export const backButton = {
-	width: 24,
-	height: 15,
+	width: 15,
+	height: 24,
 	src: backIcon,
 	alt: 'backIcon'
 }

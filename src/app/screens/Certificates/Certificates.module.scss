@@ -1,3 +1,17 @@
+@import "src/app/styles/colors.scss";
+
+$bg1_certificates: '../../assets/certificates/bg1.svg';
+$bg2_certificates: '../../assets/certificates/bg2.svg';
+
+.certificatesWrapper {
+  background-color: $white;
+  background-image: url($bg1_certificates), url($bg2_certificates);
+  background-repeat: no-repeat;
+  background-position: left -65px, center 140px;
+}
+
 .certificates {
   margin: 40px 25px 30px;
+  display: inline-block;
+
 }

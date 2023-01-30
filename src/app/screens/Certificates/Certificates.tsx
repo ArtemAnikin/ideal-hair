@@ -13,7 +13,7 @@ import styles from './Certificates.module.scss'
 
 const Certificates: FC = () => {
 	return (
-		<>
+		<div className={styles.certificatesWrapper}>
 			<div>
 				<Header title={headerTitle} showBackButton />
 			</div>
@@ -33,7 +33,7 @@ const Certificates: FC = () => {
 			</div>
 
 			<Footer />
-		</>
+		</div>
 	)
 }
 

@@ -1,7 +1,13 @@
 @import "src/app/styles/colors.scss";
 
+$bg1_home: '../../assets/home/bg1.svg';
+$bg2_home: '../../assets/home/bg2.svg';
+
 .home {
   background-color: $beige;
+  background-image: url($bg1_home), url($bg2_home);
+  background-repeat: no-repeat;
+  background-position: left -27px, center 455px;
 
   .top {
     padding-top: 22px;
@@ -15,8 +21,7 @@
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
-      line-height: 15px;
-      text-align: center;
+      line-height: 75%;
       color: #000000;
 
     }
@@ -33,7 +38,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 125%;
     color: #000000;
   }
 

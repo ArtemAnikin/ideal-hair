@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { FC } from 'react'
 
-import profileImg from '@/assets/Home/profile.svg'
+import profileImg from '@/assets/home/profile.svg'
 import logo from '@/assets/logo.svg'
 
 import {

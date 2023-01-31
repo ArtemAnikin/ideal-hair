@@ -38,6 +38,7 @@ const WhyMe: FC = () => {
 					src={profileData.src}
 					alt={profileData.alt}
 					draggable={'false'}
+					quality={100}
 					unoptimized
 					priority
 				/>

@@ -31,6 +31,7 @@ const Certificates: FC = () => {
 								src={cerf.scr}
 								alt={cerf.alt}
 								draggable={'false'}
+								quality={100}
 								unoptimized
 								priority
 							/>
@@ -49,6 +50,7 @@ const Certificates: FC = () => {
 								src={cerf.scr}
 								alt={cerf.alt}
 								draggable={'false'}
+								quality={100}
 								unoptimized
 								priority
 							/>
@@ -66,6 +68,7 @@ const Certificates: FC = () => {
 								src={cerf.scr}
 								alt={cerf.alt}
 								draggable={'false'}
+								quality={100}
 								unoptimized
 								priority
 							/>

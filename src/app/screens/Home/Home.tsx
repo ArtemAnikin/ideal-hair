@@ -30,6 +30,7 @@ const Home: FC = () => {
 						src={logoData.src}
 						alt={logoData.alt}
 						draggable={false}
+						quality={100}
 						unoptimized
 						priority
 					/>
@@ -42,6 +43,7 @@ const Home: FC = () => {
 						src={profileImage.src}
 						alt={profileImage.alt}
 						draggable={false}
+						quality={100}
 						unoptimized
 						priority
 					/>

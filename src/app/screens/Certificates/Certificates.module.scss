@@ -1,14 +1,14 @@
 @import "src/app/styles/colors.scss";
 
-$bg1_certificates: '../../assets/certificates/bg1.svg';
-$bg2_certificates: '../../assets/certificates/bg2.svg';
+$bg1_certificates: '../../assets/certificates/bg1.png';
+$bg2_certificates: '../../assets/certificates/bg2.png';
 
 .certificatesWrapper {
   padding-top: 20px;
   background-color: $white;
   background-image: url($bg1_certificates), url($bg2_certificates);
   background-repeat: no-repeat;
-  background-position: left -25px, center 225px;
+  background-position: -94px -235px, -82px 234px;
 
   img {
     filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.25));
@@ -17,13 +17,18 @@ $bg2_certificates: '../../assets/certificates/bg2.svg';
 }
 
 .certificates {
-  margin: 40px 25px 30px;
+  margin: 40px auto 30px;
+  padding: 0 25px;
+  width: 100%;
   display: inline-block;
+  box-sizing: border-box;
 
   .top, .bottom {
     width: 100%;
 
     div {
+      max-width: 340px;
+      margin: 0 auto;
       display: flex;
       justify-content: space-between;
     }

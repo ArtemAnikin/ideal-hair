@@ -1,14 +1,14 @@
 @import "src/app/styles/colors.scss";
 
-$bg1_whyMe: "../../assets/beforeAfter/bg1.svg";
-$bg2_whyMe: "../../assets/beforeAfter/bg2.svg";
+$bg1_whyMe: "../../assets/beforeAfter/bg1.png";
+$bg2_whyMe: "../../assets/beforeAfter/bg2.png";
 
 .beforeAfterWrapper {
   padding-top: 20px;
   background-color: $white;
   background-image: url($bg1_whyMe), url($bg2_whyMe);
   background-repeat: no-repeat;
-  background-position: left -50px, right 400px;
+  background-position: -89px -252px, -135px 411px;
   overflow: hidden;
 }
 

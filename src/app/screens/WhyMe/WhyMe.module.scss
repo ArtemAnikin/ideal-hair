@@ -1,15 +1,15 @@
 @import 'src/app/styles/colors.scss';
 
-$bg1_whyMe: "../../assets/whyMe/bg1.svg";
-$bg2_whyMe: "../../assets/whyMe/bg2.svg";
-$bg3_whyMe: "../../assets/whyMe/bg3.svg";
+$bg1_whyMe: "../../assets/whyMe/bg1.png";
+$bg2_whyMe: "../../assets/whyMe/bg2.png";
+$bg3_whyMe: "../../assets/whyMe/bg3.png";
 
 .whyMeWrapper {
   padding-top: 20px;
   background-color: $white;
   background-image: url($bg1_whyMe), url($bg3_whyMe), url($bg2_whyMe);
   background-repeat: no-repeat;
-  background-position: left -50px, center 210px, right bottom;
+  background-position: -131px -225px, -52px 200px, -110px 454px;
   overflow: hidden;
 }
 

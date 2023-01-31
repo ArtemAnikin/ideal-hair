@@ -1,13 +1,13 @@
 @import "src/app/styles/colors.scss";
 
-$bg1_home: '../../assets/home/bg1.svg';
-$bg2_home: '../../assets/home/bg2.svg';
+$bg1_home: '../../assets/home/bg1.png';
+$bg2_home: '../../assets/home/bg2.png';
 
 .home {
   background-color: $beige;
   background-image: url($bg1_home), url($bg2_home);
   background-repeat: no-repeat;
-  background-position: left -27px, center 445px;
+  background-position: -103.329px -240.43px, -117px 444px;
   overflow: hidden;
 
   .top {

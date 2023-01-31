@@ -11,5 +11,5 @@ export const getHomeUrl = '/'
 export const getInstagramUrl =
 	'https://instagram.com/ideal.hair_?igshid=YmMyMTA2M2Y='
 export const getTelegramUrl = 'https://t.me/idealhaair'
-export const getViberUrl = 'https://msng.link/o/?380665272340=vi'
+export const getViberUrl = 'https://vibr.cc/%2B380665272340'
 export const getPhoneUrl = 'tel:+380665272340'
